@@ -194,8 +194,8 @@ group_c1_c2 = zip(c1_pattack,c2_pnormal)
 for i in group_c1_c2:
 	if i[0] > i[1]:
 		compare.append("1")
-	if i[0] < i [1]:
-		compare.append("0")
+	# if i[0] < i [1]:
+	# 	compare.append("0")
 with open('log.txt' , "r+") as f:
 	for line in f:
 		line_pro.append(line)
